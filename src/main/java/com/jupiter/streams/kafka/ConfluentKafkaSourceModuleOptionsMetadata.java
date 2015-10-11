@@ -1,4 +1,4 @@
-package com.jupital.streams.kafka;
+package com.jupiter.streams.kafka;
 
 
 import org.springframework.integration.x.kafka.KafkaConsumerOptionsMixin;
@@ -6,7 +6,6 @@ import org.springframework.integration.x.kafka.KafkaOffsetTopicOptionsMixin;
 import org.springframework.integration.x.kafka.KafkaZKOptionMixin;
 import org.springframework.xd.module.options.spi.Mixin;
 import org.springframework.xd.module.options.spi.ModuleOption;
-import org.springframework.xd.module.options.spi.ProfileNamesProvider;
 import org.springframework.integration.x.kafka.KafkaSourceModuleOptionsMetadata;
 
 /**
